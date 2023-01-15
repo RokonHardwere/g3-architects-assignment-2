@@ -17,7 +17,9 @@
 .banner-describ,
 .features-describe,
 .discus-describe,
-.describe,.facts-describe,.sponscer-describe {
+.describe,
+.facts-describe,
+.sponscer-describe {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
@@ -124,45 +126,53 @@
 }
 
 /*----------------------------- features love and enjoy---------------------- */
-.features-container{
+.features-container {
     display: flex;
     gap: 50px;
     margin: 0 130px;
 }
+
 .discus-title {
     border-left: 5px solid #ff900e;
     padding-left: 15px;
     margin-bottom: 20px;
 }
-.features-sub-container{
+
+.features-sub-container {
     padding: 20px;
-    background:#ffff;
-    box-shadow:0px 4px 30px rgba(0,0,0,0.2);
+    background: #ffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     border-radius: 5px;
 }
+
 .features-sub-container,
-.title ,.facts-title{
+.title,
+.facts-title {
     font-weight: 600;
     font-size: 20px;
 }
-.explore-btn.experience{
+
+.explore-btn.experience {
     position: relative;
     font-size: 30px;
     font-weight: 700;
-    left:42%;
+    left: 42%;
     bottom: 80px;
 }
+
 /*----------------------------------- some facts ----------------------------- */
-.review{
+.review {
     margin: 0 130px;
 }
-.review-items{
+
+.review-items {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
-.review-list{
+
+.review-list {
     border: 1px solid #ff900e;
     padding: 10px;
     border-radius: 5px;
@@ -170,98 +180,118 @@
     width: 150px;
     height: 100px;
 }
-.review-list:hover{
+
+.review-list:hover {
     background-color: #FF900E;
     box-shadow: 1px 2px 2px 2px rgba(7, 7, 7, 0.2);
     cursor: pointer;
     transition: 0.5s;
 }
+
 /*----------------------- our sponscer style ---------------------------- */
-.sponscer-container{
-    margin:110px 130px;
+.sponscer-container {
+    margin: 110px 130px;
     text-align: center;
 
 }
-.sponscer-item{
+
+.sponscer-item {
     display: flex;
     justify-content: space-between;
     filter: grayscale(100%);
 
 }
-.sponscer-item li{
+
+.sponscer-item li {
     list-style: none;
 }
+
 /*-------------------------------------- footer style ---------------------------------- */
-footer{
+footer {
     margin: 130px 130px;
     background-color: #FFF4E7;
     border-radius: 5px;
     padding: 40px 300px;
 }
-footer p{
+
+footer p {
     text-align: center;
 }
-.display{
+
+.display {
     display: none;
 }
+
 /*-------------------------- responsive style ------------------ */
 /*--------------------------- Mobile Device--------------------- */
 @media only screen and (max-width:576px) {
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
         padding: 05px 0 30px 0px;
         align-items: flex-start;
     }
-    .nav .nav-items{
+
+    .nav .nav-items {
         flex-direction: column;
         gap: 20px;
     }
-    .nav-items .item{
-        padding: 15px 576px 15px 15px;
-        padding-right:576px ;
-        padding-left:20px ;
-        background-color: #ff8c00;
+
+    .nav-items .item {
+        padding: 15px 447px 15px 2px;
+        background-color: #ff620054;
         color: #141414;
     }
-    .banner-img,.banner-title{
+
+    .banner-img,
+    .banner-title {
         width: 100%;
         height: 400px;
     }
-    .features{
+
+    .features {
         flex-direction: column-reverse;
 
     }
-    .features-img{
-        grid-template-columns: repeat(1,1fr);
+
+    .features-img {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .features-info{
+
+    .features-info {
         margin-bottom: 15px;
         padding-left: 22px;
         width: 100%;
     }
-    .features-container{
+
+    .features-container {
         flex-direction: column;
     }
-    .features-discus-img img{
+
+    .features-discus-img img {
         width: 100%;
     }
-    .explore-btn.experience{
+
+    .explore-btn.experience {
         left: 30%;
         top: 20px;
         font-size: 20px;
     }
-    .review{
+
+    .review {
         margin-top: 50px;
     }
-    .review-items{
+
+    .review-items {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .sponscer-item{
+
+    .sponscer-item {
         flex-direction: column;
     }
-    footer{
+
+    footer {
         margin: 15px 5px;
         padding: 13px 0px;
     }
