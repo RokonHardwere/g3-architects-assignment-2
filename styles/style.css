@@ -218,10 +218,6 @@ footer p {
     text-align: center;
 }
 
-.display {
-    display: none;
-}
-
 /*-------------------------- responsive style ------------------ */
 /*--------------------------- Mobile Device--------------------- */
 @media only screen and (max-width:576px) {
@@ -234,12 +230,6 @@ footer p {
     .nav .nav-items {
         flex-direction: column;
         gap: 20px;
-    }
-
-    .nav-items .item {
-        padding: 15px 447px 15px 2px;
-        background-color: #ff620054;
-        color: #141414;
     }
 
     .banner-img,
