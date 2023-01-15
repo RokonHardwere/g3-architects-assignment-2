@@ -14,7 +14,24 @@
     width: 100%;
 }
 
+.banner-describ,
+.features-describe,
+.discus-describe,
+.describe,.facts-describe,.sponscer-describe {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 0;
+}
 
+.explore-btn {
+    color: white;
+    background: #FF900E;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+
+}
 
 
 /*------------------------- header styles -------------------------- */
@@ -44,7 +61,7 @@
     color: #424242;
 }
 
-/* banner styles ---------------------------------------------------------------------------------- */
+/*---------------------------------------- banner styles ----------------------------- */
 .banner {
     display: flex;
     flex-direction: column;
@@ -62,31 +79,12 @@
     font-size: 64px;
 }
 
-.banner-describ,
-.features-describe,
-.discus-describe,
-.describe,.facts-describe,.sponscer-describe {
-    color: #727272;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 25px 0;
-}
-
-.explore-btn {
-    color: white;
-    background: #FF900E;
-    border: none;
-    padding: 20px 25px;
-    border-radius: 10px;
-
-}
-
 .banner-img {
     height: 550px;
     padding-bottom: 15px;
 }
 
-/* quick list star ---------------------------------------------------------------------------------- */
+/*------------------------------------ quick list star ------------------------------- */
 .features {
     display: flex;
     align-items: center;
@@ -125,7 +123,7 @@
     color: #FF900E;
 }
 
-/* features love and enjoy--------------------------------------------------------------------------------------------------------------- */
+/*----------------------------- features love and enjoy---------------------- */
 .features-container{
     display: flex;
     gap: 50px;
@@ -155,7 +153,7 @@
     left:42%;
     bottom: 80px;
 }
-/* some facts -------------------------------------------------------------------------------------------------------------------- */
+/*----------------------------------- some facts ----------------------------- */
 .review{
     margin: 0 130px;
 }
@@ -202,4 +200,69 @@ footer{
 }
 footer p{
     text-align: center;
+}
+.display{
+    display: none;
+}
+/*-------------------------- responsive style ------------------ */
+/*--------------------------- Mobile Device--------------------- */
+@media only screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+        padding: 05px 0 30px 0px;
+        align-items: flex-start;
+    }
+    .nav .nav-items{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-items .item{
+        padding: 15px 576px 15px 15px;
+        padding-right:576px ;
+        padding-left:20px ;
+        background-color: #ff8c00;
+        color: #141414;
+    }
+    .banner-img,.banner-title{
+        width: 100%;
+        height: 400px;
+    }
+    .features{
+        flex-direction: column-reverse;
+
+    }
+    .features-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-info{
+        margin-bottom: 15px;
+        padding-left: 22px;
+        width: 100%;
+    }
+    .features-container{
+        flex-direction: column;
+    }
+    .features-discus-img img{
+        width: 100%;
+    }
+    .explore-btn.experience{
+        left: 30%;
+        top: 20px;
+        font-size: 20px;
+    }
+    .review{
+        margin-top: 50px;
+    }
+    .review-items{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .sponscer-item{
+        flex-direction: column;
+    }
+    footer{
+        margin: 15px 5px;
+        padding: 13px 0px;
+    }
 }
