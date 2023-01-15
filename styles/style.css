@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+
+/*---------------- common/utilities/base style ---------------------- */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+
+
+
+
+/*------------------------- header styles -------------------------- */
+.text-logo h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 130px 0 130px;
+    align-items: center;
+    margin-bottom: 102px;
+}
+
+.nav .nav-items {
+    display: flex;
+    gap: 50px;
+}
+
+.item,
+.item a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* banner styles ---------------------------------------------------------------------------------- */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 800px;
+}
+
+.banner-name {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-describ,
+.features-describe,
+.discus-describe,
+.describe,.facts-describe,.sponscer-describe {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+.explore-btn {
+    color: white;
+    background: #FF900E;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+
+}
+
+.banner-img {
+    height: 550px;
+    padding-bottom: 15px;
+}
+
+/* quick list star ---------------------------------------------------------------------------------- */
+.features {
+    display: flex;
+    align-items: center;
+    margin-top: 113px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 130px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.features-info {
+    padding-left: 73px;
+}
+
+.features-title,
+.discus-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.heading {
+    color: #727272;
+    font-weight: 500;
+}
+
+.features-title b {
+    color: #131313;
+}
+
+.color {
+    color: #FF900E;
+}
+
+/* features love and enjoy--------------------------------------------------------------------------------------------------------------- */
+.features-container{
+    display: flex;
+    gap: 50px;
+    margin: 0 130px;
+}
+.discus-title {
+    border-left: 5px solid #ff900e;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.features-sub-container{
+    padding: 20px;
+    background:#ffff;
+    box-shadow:0px 4px 30px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.features-sub-container,
+.title ,.facts-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.explore-btn.experience{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    left:42%;
+    bottom: 80px;
+}
+/* some facts -------------------------------------------------------------------------------------------------------------------- */
+.review{
+    margin: 0 130px;
+}
+.review-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.review-list{
+    border: 1px solid #ff900e;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+.review-list:hover{
+    background-color: #FF900E;
+    box-shadow: 1px 2px 2px 2px rgba(7, 7, 7, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*----------------------- our sponscer style ---------------------------- */
+.sponscer-container{
+    margin:110px 130px;
+    text-align: center;
+
+}
+.sponscer-item{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+
+}
+.sponscer-item li{
+    list-style: none;
+}
+/*-------------------------------------- footer style ---------------------------------- */
+footer{
+    margin: 130px 130px;
+    background-color: #FFF4E7;
+    border-radius: 5px;
+    padding: 40px 300px;
+}
+footer p{
+    text-align: center;
+}
